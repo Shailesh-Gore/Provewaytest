@@ -1,0 +1,268 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@200&family=Oswald&family=Roboto+Condensed&family=Wix+Madefor+Display&family=Work+Sans:wght@200&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@200;300&family=Metrophobic&family=Oswald&family=Roboto+Condensed&family=Wix+Madefor+Display&family=Work+Sans:wght@200&display=swap");
+
+@import url("https://fonts.cdnfonts.com/css/metropolis");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  padding: 2rem 0;
+  font-family: "Inter", sans-serif;
+}
+
+.main-container {
+  max-width: 50%;
+  margin: auto;
+}
+
+.expandable-content,
+.expandable-content-2,
+.expandable-content-3 {
+  display: none;
+  /* Add other styles to format the expanded content as needed */
+}
+
+hr {
+  width: 40%;
+  background-color: pink;
+  margin: 9px auto 7px;
+  padding-left: 0.2rem;
+}
+
+.bundle-save {
+  display: flex;
+  height: 1.8rem;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.808rem;
+  line-height: 1.808rem;
+  color: #007f61;
+  padding: 2rem 0;
+}
+
+.bundle-save > span {
+  width: 12rem;
+  font-family: "metropolis";
+}
+
+.first-upper,
+.upper,
+.lower {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .pair-1 {
+  flex-direction: column;
+} */
+
+.pair-1 {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+.first-upper {
+  border: none;
+}
+
+.left-pair {
+  display: flex;
+  width: 30%;
+  max-width: 100%;
+  font-size: initial;
+  justify-content: space-between;
+}
+
+.upper-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.middle-pair {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  font-size: initial;
+  line-height: 1.203rem;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: black;
+  opacity: 30%;
+}
+
+.right-pair {
+  display: flex;
+  flex-direction: column;
+  font-size: initial;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.pair-2 {
+  margin-top: 4rem;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+.upper {
+  border: none;
+}
+
+.lower-table {
+  padding: 2.4rem;
+  font-size: 1.6rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.lower-table > table > tr {
+  margin: 1rem 0;
+}
+
+td > select {
+  width: 9rem;
+  height: 2.531rem;
+  border: 0.9px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+th {
+  font-weight: 200;
+}
+
+td,
+th {
+  padding: 2px 4px;
+}
+
+.pair-3 {
+  margin-top: 4rem;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+.pair-3 > .lower {
+  border: none;
+}
+
+.shipping {
+  padding: 2rem 0;
+  font-size: 1.4rem;
+  display: flex;
+  font-weight: 500;
+  line-height: 1.694;
+  justify-content: space-between;
+}
+
+.shipping > .total {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.694;
+}
+
+.addtocart {
+  width: 100%;
+  height: 4.8rem;
+  background-color: #007f61;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  line-height: 1.936;
+  font-weight: 600;
+}
+
+.copy-right {
+  text-align: end;
+  padding: 1rem 0;
+}
+
+.copy-right > .copyright-logo {
+  width: 0.5rem;
+  text-align: center;
+  height: 0.9rem;
+  border: 1px solid;
+  padding: 0 1px;
+  border-radius: 50%;
+  font-size: 0.733;
+  line-height: 0.888;
+  font-weight: 300;
+  margin: 0 0.2rem;
+}
+
+.copy-right > .copyright-text {
+  font-style: italic;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.452;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .main-container {
+    max-width: 90%;
+  }
+
+  .bundle-save > span {
+    width: 16rem;
+  }
+
+  .hr {
+    width: 50%;
+  }
+
+  .left-pair {
+    max-width: 50%;
+    width: 100%;
+  }
+
+  .first-upper,
+  .upper,
+  .lower {
+    padding: 1.2rem;
+    flex-direction: row;
+    /* align-items: center; */
+  }
+
+  .upper > .middle-pair {
+    align-items: end;
+  }
+
+  .lower-table {
+    padding: 1.2rem;
+    font-size: 1.4rem;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .shipping,
+  .addtocart {
+    font-size: 1.4rem;
+    line-height: 1.694;
+  }
+
+  .middle-pair {
+    font-size: 0.994rem;
+  }
+
+  .copy-right {
+    padding: 0.5rem 0;
+  }
+}
