@@ -8,6 +8,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter";
+  font-weight: 300;
 }
 
 html {
@@ -16,11 +18,10 @@ html {
 
 body {
   padding: 2rem 0;
-  font-family: "Inter", sans-serif;
 }
 
 .main-container {
-  max-width: 50%;
+  max-width: 40%;
   margin: auto;
 }
 
@@ -72,6 +73,8 @@ hr {
 .pair-1 {
   border: 1px solid #d9d9d9;
   border-radius: 4px;
+  /* background-color: #f4fbf9;
+  border: 1px solid #007f61; */
 }
 
 .first-upper {
@@ -186,7 +189,7 @@ th {
   border-radius: 0.4rem;
   font-size: 1.6rem;
   line-height: 1.936;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .copy-right {
